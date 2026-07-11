@@ -16,7 +16,7 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
 
 # ─── ENVIRONMENT VARIABLES ───
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8448367676:AAFSFYQAwb6vLcSj1GkDqxrYwx0vsayfQck")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8448367676:AAFA5GXzQr23BSMpV4cXejvAGEfEi4uq5OA")
 CRYPTO_PAY_TOKEN = os.environ.get("CRYPTO_PAY_TOKEN", "607964:AA802op9FGK4cgT6ucCEPaJtG7tLb1q1OTy")
 PIXVERIFY_API_KEY = os.environ.get("PIXVERIFY_API_KEY", "pk_live_ed6979e455bdaacdcb786978901670d745581fa14a809e8f")
 ADMIN_ID = int(os.environ.get("ADMIN_ID", "8278238550"))
